@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+		xmlns:gap="http://phonegap.com/ns/1.0"
+		id="com.lyapi.voice"
+		versionCode="1"
+		version="1.0">
+
+	<name>Voice</name>
+	
+	<description>Es una aplicacion que controla el telepronter de ICC las flores</description>
+	
+	<author href="http://firt.mobi" email="anesteban25@gmail.com">Andres Barrios</author>
+	
+	<icon src="image/icono.png" gap:role="default" />
+
+	<gap:splash src="image/png" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	
+	<preference name="orientation" value="landscape" />
+	
+	<gap:platform>
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="android" minVersion="2.3" />
+	</gap:platform>
+
+</widget>

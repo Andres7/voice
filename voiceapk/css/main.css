@@ -1,0 +1,111 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background: #777;
+	font-family: arial;
+	font-size: 1em;
+}
+
+#pantalla {
+	margin: 0px;
+	position: relative;
+}
+/*header*/
+#pantalla #header {
+	display: block;
+	height: 150px;
+	margin: 0px;
+	background: #FFF;
+	z-index: 2;
+}
+#header h3 {
+	position: absolute;
+	left: 0px;right: 0px;
+	text-align: center;
+	font-size: 1.5em;
+}
+/*menu listas creadas*/
+#pantalla #menulistas {
+	position: relative;
+	height: 200px;
+	display: block;
+	background: #F7F7F7;
+	padding: 0px;
+	margin: 0px;
+	z-index: 1;
+	box-shadow: 0px 0px 7px #777 inset;
+	overflow-x: hidden;
+}
+#menulistas .list {
+	display: block;
+	width: 300px;
+	height: 190px;
+	background: url(../image/img.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 5px auto;
+}
+#menulistas .list div {
+	position: absolute;
+	width: 50px;
+	height: 190px;
+	display: inline-block;
+	margin: 0px 250px;
+	background: rgba(31,31,31,.7);
+}
+#menulistas .list div span {
+	display: block;
+	width: 50px;
+	height: 60px;
+	padding-top: 35px;
+	background: #FFF;
+	text-align: center;
+	box-shadow: 0 0 5px #777 inset;
+}
+#pantalla #menucontrol {
+	display: block;
+	background: #FFF;
+	height: 150px;
+}
+#pantalla #menuopcion {
+	background: #F7F7F7;
+	box-shadow: 0px 0px 7px #777 inset;
+	height: 200px;
+}
+/*MENU*/
+#btnmenu {
+	position: fixed;
+	text-align: center;
+	background: #FFF;
+	display: inline-block;
+	padding: 5px;
+	box-shadow: 0px 0px 5px #777;
+	top: 0px;
+	right: 0px;
+	font-size: 2em;
+}
+/*scroll*/
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background-color: #FFF; }
+::-webkit-scrollbar-thumb { background-color: rgba(31,31,31,.8); }
+::-webkit-scrollbar-corner { background-color: black; }
+
+::-moz-scrollbar { width: 5px; }
+::-moz-scrollbar-track { background-color: #FFF; }
+::-moz-scrollbar-thumb { background-color: rgba(31,31,31,.8); }
+::-moz-scrollbar-corner { background-color: black; }
+
+::-ms-scrollbar { width: 5px; }
+::-ms-scrollbar-track { background-color: #FFF; }
+::-ms-scrollbar-thumb { background-color: rgba(31,31,31,.8); }
+::-ms-scrollbar-corner { background-color: black; }
+
+::-o-scrollbar { width: 5px; }
+::-o-scrollbar-track { background-color: #FFF; }
+::-o-scrollbar-thumb { background-color: rgba(31,31,31,.8); }
+::-o-scrollbar-corner { background-color: black; }
+
+::scrollbar { width: 5px; }
+::scrollbar-track { background-color: #FFF; }
+::scrollbar-thumb { background-color: rgba(31,31,31,.8); }
+::scrollbar-corner { background-color: black; }
